@@ -2,11 +2,30 @@
     margin:0;
     padding:0;
 }
-body{
-    overflow:hidden;
+.box1{
+    color:white;
+    margin-top:10rem;
+}
+.box2{
+    color:white;
+    background: rgba(255, 255, 255, 0.39);
+    opacity:0;
+}
+.box3{
+    color:white;
+    background: rgba(255, 255, 255, 0.39);
+    opacity:0;
+}
+.content{
+    display:flex;
+    justify-content: center;
 }
 #backgroundimg{
     width:100vw;
-    position:absolute;
+    position:fixed;
     z-index:-1;
+}
+#arrow{
+    height:10rem;
+    width:10rem;
 }

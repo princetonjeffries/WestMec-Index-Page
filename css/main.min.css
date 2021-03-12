@@ -1,2 +1,2 @@
-*{margin:0;padding:0}body{overflow:hidden}#backgroundimg{width:100vw;position:absolute;z-index:-1}
+*{margin:0;padding:0}.box1{color:white;margin-top:10rem}.box2{color:white;background:rgba(255,255,255,0.39);opacity:0}.box3{color:white;background:rgba(255,255,255,0.39);opacity:0}.content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}#backgroundimg{width:100vw;position:fixed;z-index:-1}#arrow{height:10rem;width:10rem}
 /*# sourceMappingURL=main.min.css.map */
