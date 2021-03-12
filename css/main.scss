@@ -50,12 +50,13 @@
       transform: rotate(360deg);
     }
 }
-html {
-    animation: fadeSiteIn 0.5s ease forwards; /* [1] */
+
+.content{
+    animation: fadeSiteIn 1s ease forwards; /* [1] */
 }
 
-html.fadeSiteOut {
-  animation:  fadeSiteOut 0.5s ease forwards; /* [2] */
+.content.fadeSiteOut {
+  animation:  fadeSiteOut 1s ease forwards; /* [2] */
 }
 
 
