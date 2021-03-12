@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+#backgroundimg {
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+/*# sourceMappingURL=main.css.map */
