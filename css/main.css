@@ -1,3 +1,13 @@
+@font-face {
+  src: url("../fonts/JosefinSans-Italic-VariableFont_wght.ttf");
+  font-family: josefinitalic;
+}
+
+@font-face {
+  src: url(../fonts/JosefinSans-VariableFont_wght.ttf);
+  font-family: josefin;
+}
+
 .carousel-control.left .glyphicon {
   left: 0;
   margin-left: 0;
@@ -14,9 +24,12 @@
 }
 
 .box1 {
+  font-family: josefinitalic;
   color: white;
   margin-top: 10rem;
   border-radius: 30px;
+  -webkit-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.137);
+          box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.137);
 }
 
 .box2 {
@@ -26,6 +39,7 @@
   background: rgba(61, 61, 61, 0.39);
   opacity: 0;
   border-radius: 30px;
+  font-family: josefin;
 }
 
 .box3 {
@@ -35,6 +49,7 @@
   background: rgba(61, 61, 61, 0.39);
   opacity: 0;
   border-radius: 30px;
+  font-family: josefin;
 }
 
 .content {
@@ -140,5 +155,6 @@
 
 body {
   overflow: hidden;
+  font-family: josefin;
 }
 /*# sourceMappingURL=main.css.map */
